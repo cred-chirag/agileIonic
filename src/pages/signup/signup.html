@@ -1,0 +1,42 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content padding class="login-content">
+  <ion-row class="logo-row">
+    
+    <ion-col>
+      <img class="login-img" src="assets/imgs/logowhite.png"/>
+    </ion-col>
+    
+  </ion-row>
+  
+    
+      <ion-row>
+        <ion-col>
+          <ion-list inset class="signupBox">
+            
+            <ion-item>
+              <ion-input type="text" placeholder="Email" name="email" required></ion-input>
+            </ion-item>
+            
+            
+              <ion-label no-wrap>Sign Up with your Email ID and we'll send you activation code.</ion-label>
+            
+            
+          </ion-list>
+        </ion-col>
+      </ion-row>
+      
+      <ion-row>
+        <ion-col class="signup-col">
+          <button ion-button class="submit-btn" full type="submit">Signup</button>          
+        </ion-col>
+      </ion-row>
+      
+        <a class="signup-link" href="#" (click)="signupPageClick(signup)">Go To Login <ion-icon name="arrow-round-down"></ion-icon></a>
+      
+ 
+</ion-content>
